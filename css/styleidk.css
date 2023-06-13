@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.banner{
+width: 100%;
+height: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/black-and-white-new-york-wallpaper.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.navbar-nav{
+    margin-left: 30%;
+}
+.navbar{
+    width: 85%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #6E260E;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.main{
+    background-color: #fff;
+    margin-top: 10%;
+    height: 80% ;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 2.5%;
+}
+.covers{
+border-radius: 10px;
+width: 90%;
+box-shadow: 10px 10px 5px gray;
+}
+#Albums{
+    padding-left: 6%;
+    width: 100%;
+}
+
+.covers {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.covers:hover {
+    -webkit-filter: brightness(50%);
+            filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.text{
+    text-align: center; 
+    font-size: x-large;
+    margin-left: -7%;
+    margin-top: 3%;
+}
+h1{
+    margin-left:5% ;
+    padding-top:5%;
+    margin-bottom: 2%;
+}
+button{
+    width: 15%;
+    height: 7%;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+.readmore{
+font-size: x-large;
+padding: 1%;
+text-decoration: none;
+color: black;
+}
+.readmore:hover{
+    background-color: rgb(151, 151, 151);
+    color: #fff;
+    
+}
+.smallimg{
+    width: 400px; 
+    margin-bottom: 3%;
+}
+.aboutme{
+    border-radius: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
